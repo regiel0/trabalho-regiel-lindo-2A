@@ -7,15 +7,45 @@
     <link rel="stylesheet" href="syle.css">
 </head>
 <body>
-    <img src="img/avatar-perfil-png" alt="avatar eu" srcset="">
-    <p> eu sou regiel</p>
-    <h1>eu aprendo programaçao</h1>
-    <p> sou aluno de programaçao e pensameno compuacioal,atualmente uso html, css e java script nas minhas aulas.
-        Veja os projetos que desenvolvi
+    <header class="container text-center">
+    <img src="img/avatar-perfil-png" class="rounded-circle" width="150" height="150" alt="avatar" srcset="">
+    <p class="lead"> Eu sou Regiel</p>
+    <h1>Eu aprendo programaçao</h1>
+    <p> Sou aluno de programaçao e pensamento computacional,atualmente uso e aprendo html, CSS e JavaScript nas minhas aulas.
+        Veja os projetos que desenvolvi:
     </p>
-    <p>HTML</p>
-    <p>CSS</p>
-    <p>JavaScript</p>
-    <p>Scratch</p>
+    <div>
+    <p class="badge text-bg-secundary">HTML</p>
+    <p class="badge text-bg-secundary">CSS</p>
+    <p class="badge text-bg-secundary">JavaScript</p>
+    <p class="badge text-bg-secundary">Scratch</p>
+</div>
+    </header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto1 -->
+            <div class="col-md-4">
+                <div class="card">
+                <img src="img/projects-1.png" class="card-img-top" alt="imagem do projeto de biblioteca">
+                <div class="card-body">
+                <h5 class="card-title">Minha biblioteca</h5>
+                <p class="card-text"> Some quick example text to build on
+                    the card and make up the bulk of the card's content
+                </p>
+                <button type="button" class="btn btn-primary">veja o projeto</button>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container">
+        <h2>entre em contato</h2>
+        <div>
+            <a href="http:github">github</a>
+            <p class="my-5 text-center">copyright 2024, produzido po Regiel</p>
+        </div>
+    </footer>
 </body>
 </html>
