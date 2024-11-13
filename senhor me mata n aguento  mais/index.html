@@ -3,90 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portifolio</title>
-    <link rel="stylesheet" href="syle.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meu portfólio</title>
 </head>
 <body>
-    <header class="container text-center">
-    <img src="img/avatar-perfil-png" class="rounded-circle" width="150" height="150" alt="avatar" srcset="">
-    <p class="lead"> Eu sou Regiel</p>
-    <h1>Eu aprendo programaçao</h1>
-    <p> Sou aluno de programaçao e pensamento computacional,atualmente uso e aprendo html, CSS e JavaScript nas minhas aulas.
-        Veja os projetos que desenvolvi:
-    </p>
-    <div>
-    <p class="badge text-bg-secundary">HTML</p>
-    <p class="badge text-bg-secundary">CSS</p>
-    <p class="badge text-bg-secundary">JavaScript</p>
-    <p class="badge text-bg-secundary">Scratch</p>
+    <header class="container">
+    <img src="img/avatar-perfil.png" class="rounded-circle" width="150"  alt="avatar de brayan" srcset="">
+<p class="lead">Eu sou Regiel</p>
+<h1>Eu aprendo programação</h1>
+<p> Sou aluno de programaçao e pensamento computacional,atualmente uso e aprendo html, CSS e JavaScript nas minhas aulas.
+    Veja os projetos que desenvolvi:</p>
+<p>Minhas habilidades</p>
+<div>
+    <p class="badge text-bg-secondary"> HTML</p>
+    <p class="badge text-bg-secondary">CSS</p>
+    <p class="badge text-bg-secondary">JavaScript</p>
+    <p class="badge text-bg-secondary">Scratch</p>
 </div>
     </header>
-    <main class="container">
-        <h2>Meus projetos</h2>
-        <div class="row">
-            <!-- Projeto1 -->
-            <div class="modal1" tabindex="-1">
-            <div class="moda1-dialog">
-                <div class="moda1-content">
-                <div class="moda1-header">
-                <h5 class="moda1-title">Minha biblioteca</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
-                <div class="moda1-body">
-                    <p>O projeto é uma pagina web criada com html e css n</p>
-                    <p>A estrutura do </p>
-                    <p>O html</p>
-                    <p>O css</p>
-                </div>
-                <div class="modal-footer"> 
-                    <button type="button" class="btn btn-secudary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-                <div class="modal-footer">
-                    <a href="">Ver projeto ao vivo</a>
-                    <a href="">Ver codigo do projeto</a>
-                </div>
-                <p class="card-text"> Some quick example text to build on
-                    the card and make up the bulk of the card's content
-                </p>
-                <button type="button" class="btn btn-primary" data-bs-toogle="modal" data-bs-target="modal1">veja o projeto</button>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            </div>
-            <!-- Projeto2 -->
-            <div class="col-md-4">
-                <div class="card">
-                <img src="img/projects-1.png" class="card-img-top" alt="imagem do projeto de biblioteca">
-                <div class="card-body">
-                <h5 class="card-title">Decidindo o futuro</h5>
-                <p class="card-text"> Some quick example text to build on
-                    the card and make up the bulk of the card's content
-                </p>
-                <button type="button" class="btn btn-primary" data-bs-toogle="modal" data-bs-target="modal2">veja o projeto</button>
-            </div>
+</body>
+</html>
+<main class="container mt-5">
+    <h2>Meus projetos</h2>
+    <div class="row">
+        <!--projeto 1-->
+        <div class="modal" tabinex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title">Minha biblioteca: uma webpage personalizada</h5>
+        <button type="button" class="btn-close" data-bs-dimiss="modal" aria-label="close"></button>
         </div>
+        <div class="modal-body">
+            <p>O projeto é uma pagina web criada com HTML e CSS destinada a exibir uma coleção 
+                pessoal de livros favoritos. O objetivo é criar um ambiente virtual onde seja possivel
+                compartilhar seus livros preferidos, fornecendo uma descrição breve de cada um,
+                incluindo o autor, ano de publicação e uma opção de compra.</p>
+                <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteudo,
+                    enquanto o CSS é usado para estilizar a página visualmente,incluindo 
+                    cores, tipografia e a disposição dos elementos.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título site, seguido por uma
+                        divisão principal(.container) que apresenta o propósito do site e a coleção de 
+                        livros em uma seção flexível(.livros). Cada livro é destacado em seu próprio conteiner
+                        (.livros), mostrando um imagem de capa, detalhes do livro e um link de compra. O 
+                        desing responsivo é garantido pelo uso de uma tag viewport e um flexivel que 
+                        se adapta a diferentes tamanhos de tela.</p>
+                        <p>O CSS personalisa o visual do site, usando variáveis para cores, estilizando o 
+                            texto com uma fonte importada do Google Fonts e aplicando um esquema de cores 
+                            suaves e botões interatovos. O uso de HTML e CSS é importante pois assim é possivel
+                            criar um site acessivel e esteticamente agradável sem a necessidade de scripts
+                            completos, com foco na usabilidade e na experiência da pessoa usuària. A escolha 
+                            de tipografia e do esquema de cores contribui para a atmosfera acolhedora do site,
+                            incentivando a exploração da coleção de livros.</p>
         </div>
-<!-- Projeto3 -->
-<div class="col-md-4">
+        <div class="modal-footer">
+            <butoon type="butoon" class="bnt bnt-secondary" data-bs-dimiss="modal">Close</butoon>
+            <butoon type="butoon" class="btn btn-primary">Save changes</butoon>
+        </div>
+        <div class="modal-footer">
+            <a href="">Ver projeto ao vivo</a>
+            <a href="">Ver código do projeto</a>
+        </div>
+        <p class="card-text">Este projeto e uma pagina web que apresenta uma lista dos
+             meus livros favoritos,incluindo informações sobre os autores, datas de publicação e links 
+             para comprar na amazon.  a página é estilizada com CSS para  uma visualização agradável e 
+            usa fontes externas no Google Fonts.</p>
+        <button type="button" class="bnt bnt-link" data-bs-toogle="modal" data-bs-target="modal1">Veja o projeto</button>
+    </div>
+    </div>
+</div>
+ <!--projeto 2-->
+ <div class="col-md-4">
     <div class="card">
-    <img src="img/projects-1.png" class="card-img-top" alt="imagem do projeto de biblioteca">
+    <img src="img/projeto-1.png" class="card-img-top" alt="imagem do projeto de biblioteca">
     <div class="card-body">
-    <h5 class="card-title">Minha biblioteca</h5>
-    <p class="card-text"> Some quick example text to build on
-        the card and make up the bulk of the card's content
-    </p>
-    <button type="button" class="btn btn-primary" data-bs-toogle="modal" data-bs-target="modal3">veja o projeto</button>
-</div>
-</div>
-</div>
-</div>
-    </main>
-    <footer class="container py-5">
-        <h2>entre em contato</h2>
-        <div>
-            <a href=""http://github.com/femaschetil"">github</a>
-            <p class="my-5 text-center">copyright 2024, produzido por Regiel</p>
-        </div>
-    </footer>
+    <h5 class="card-title">Minha biblioteca: uma webpage personalizada</h5>
+    <p class="card-text">Este projeto e uma pagina web que apresenta uma lista dos
+         meus livros favoritos,incluindo informações sobre os autores, datas de publicação e links 
+         para comprar na amazon.  a página é estilizada com CSS para  uma visualização agradável e 
+        usa fontes externas no Google Fonts.</p>
+    <button type="button" class="bnt bnt-link"data-bs-toogle="modal" data-bs-target="modal2">Veja o projeto</button>
+    </div>
+    </div>
+ </div>
+ <!--projeto 3-->
+ <div class="col-md-4">
+    <div class="card">
+    <img src="img/projeto-1.png" class="card-img-top" alt="imagem do projeto de biblioteca">
+    <div class="card-body">
+    <h5 class="card-title">Minha biblioteca: uma webpage personalizada</h5>
+    <p class="card-text">Este projeto e uma pagina web que apresenta uma lista dos
+         meus livros favoritos,incluindo informações sobre os autores, datas de publicação e links 
+         para comprar na amazon.  a página é estilizada com CSS para  uma visualização agradável e 
+        usa fontes externas no Google Fonts.</p>
+    <button type="button" class="bnt bnt-link"data-bs-toogle="modal" data-bs-target="modal3">Veja o projeto</button>
+    </div>
+    </div>
+ </div>
+    </div>
+</main>
+<footer class="container">
+    <h2>Entre em contato.</h2>
+    <div>
+        <a href=""http://github.com/femaschetil"">github</a>
+        <p class="my-5 text-center">copyright 2024, produzido por Regiel Filho.</p>
+</footer>
 </body>
 </html>
